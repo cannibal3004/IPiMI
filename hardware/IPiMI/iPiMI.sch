@@ -16,223 +16,223 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J1
 U 1 1 61C35D2F
-P 2950 4500
-F 0 "J1" H 3000 5025 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 3000 5026 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 2950 4500 50  0001 C CNN
-F 3 "~" H 2950 4500 50  0001 C CNN
-	1    2950 4500
+P 1630 1505
+F 0 "J1" H 1680 2030 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 1680 2031 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1630 1505 50  0001 C CNN
+F 3 "~" H 1630 1505 50  0001 C CNN
+	1    1630 1505
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x06 J2
 U 1 1 61C38A4A
-P 7200 4450
-F 0 "J2" H 7100 4780 50  0000 L CNN
-F 1 "Conn_01x06" H 7280 4351 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 7200 4450 50  0001 C CNN
-F 3 "~" H 7200 4450 50  0001 C CNN
-	1    7200 4450
+P 4665 1300
+F 0 "J2" H 4565 1630 50  0000 L CNN
+F 1 "Conn_01x06" H 4745 1201 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 4665 1300 50  0001 C CNN
+F 3 "~" H 4665 1300 50  0001 C CNN
+	1    4665 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J3
 U 1 1 61C3CD93
-P 4780 4480
-F 0 "J3" H 4830 3847 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 4830 5006 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 4780 4480 50  0001 C CNN
-F 3 "~" H 4780 4480 50  0001 C CNN
-	1    4780 4480
+P 3215 1605
+F 0 "J3" H 3265 972 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 3265 2131 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 3215 1605 50  0001 C CNN
+F 3 "~" H 3215 1605 50  0001 C CNN
+	1    3215 1605
 	-1   0    0    1   
 $EndComp
-NoConn ~ 2750 4700
-NoConn ~ 3250 4500
-NoConn ~ 3250 4600
-NoConn ~ 3250 4800
-NoConn ~ 3250 4900
-Text GLabel 4480 3980 0    50   Input ~ 0
+NoConn ~ 1430 1705
+NoConn ~ 1930 1505
+NoConn ~ 1930 1605
+NoConn ~ 1930 1805
+NoConn ~ 1930 1905
+Text GLabel 2915 1105 0    50   Input ~ 0
 HD+
-Text GLabel 4480 4080 0    50   Input ~ 0
+Text GLabel 2915 1205 0    50   Input ~ 0
 HD-
-Text GLabel 4480 4180 0    50   Input ~ 0
+Text GLabel 2915 1305 0    50   Input ~ 0
 RES-
-Text GLabel 4480 4280 0    50   Input ~ 0
+Text GLabel 2915 1405 0    50   Input ~ 0
 RES+
-Text GLabel 4480 4380 0    50   Input ~ 0
+Text GLabel 2915 1505 0    50   Input ~ 0
 CI-
-Text GLabel 4480 4480 0    50   Input ~ 0
+Text GLabel 2915 1605 0    50   Input ~ 0
 CI+
-Text GLabel 4480 4680 0    50   Input ~ 0
+Text GLabel 2915 1805 0    50   Input ~ 0
 PWR_LED+
-Text GLabel 4480 4780 0    50   Input ~ 0
+Text GLabel 2915 1905 0    50   Input ~ 0
 PWR_LED-
-Text GLabel 4480 4880 0    50   Input ~ 0
+Text GLabel 2915 2005 0    50   Input ~ 0
 PWR_LED-
-Text GLabel 4980 3980 2    50   Input ~ 0
+Text GLabel 3415 1105 2    50   Input ~ 0
 PWR+
-Text GLabel 4980 4080 2    50   Input ~ 0
+Text GLabel 3415 1205 2    50   Input ~ 0
 PWR-
-Text GLabel 4980 4180 2    50   Input ~ 0
+Text GLabel 3415 1305 2    50   Input ~ 0
 PWR_SW+
-Text GLabel 4980 4280 2    50   Input ~ 0
+Text GLabel 3415 1405 2    50   Input ~ 0
 PWR_SW-
-Text GLabel 4980 4580 2    50   Input ~ 0
+Text GLabel 3415 1705 2    50   Input ~ 0
 SPEAK+
-Text GLabel 4980 4880 2    50   Input ~ 0
+Text GLabel 3415 2005 2    50   Input ~ 0
 SPEAK-
-Text GLabel 1625 6275 0    50   Input ~ 0
+Text GLabel 1510 3440 0    50   Input ~ 0
 PI_RST_SW
 $Comp
 L power:GND #PWR0101
 U 1 1 61C512F9
-P 1930 5600
-F 0 "#PWR0101" H 1930 5350 50  0001 C CNN
-F 1 "GND" H 1935 5427 50  0000 C CNN
-F 2 "" H 1930 5600 50  0001 C CNN
-F 3 "" H 1930 5600 50  0001 C CNN
-	1    1930 5600
+P 1815 2765
+F 0 "#PWR0101" H 1815 2515 50  0001 C CNN
+F 1 "GND" H 1820 2592 50  0000 C CNN
+F 2 "" H 1815 2765 50  0001 C CNN
+F 3 "" H 1815 2765 50  0001 C CNN
+	1    1815 2765
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 61C5186B
-P 1925 6475
-F 0 "#PWR0102" H 1925 6225 50  0001 C CNN
-F 1 "GND" H 1930 6302 50  0000 C CNN
-F 2 "" H 1925 6475 50  0001 C CNN
-F 3 "" H 1925 6475 50  0001 C CNN
-	1    1925 6475
+P 1810 3640
+F 0 "#PWR0102" H 1810 3390 50  0001 C CNN
+F 1 "GND" H 1815 3467 50  0000 C CNN
+F 2 "" H 1810 3640 50  0001 C CNN
+F 3 "" H 1810 3640 50  0001 C CNN
+	1    1810 3640
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 61C52F6F
-P 1780 5400
-F 0 "R1" V 1860 5340 50  0000 C CNN
-F 1 "68" V 1930 5380 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1710 5400 50  0001 C CNN
-F 3 "~" H 1780 5400 50  0001 C CNN
-F 4 "R" H 1780 5400 50  0001 C CNN "Spice_Primitive"
-F 5 "68" H 1780 5400 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 1780 5400 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    1780 5400
+P 1665 2565
+F 0 "R1" V 1745 2505 50  0000 C CNN
+F 1 "68" V 1815 2545 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1595 2565 50  0001 C CNN
+F 3 "~" H 1665 2565 50  0001 C CNN
+F 4 "R" H 1665 2565 50  0001 C CNN "Spice_Primitive"
+F 5 "68" H 1665 2565 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 1665 2565 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    1665 2565
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 61C540B8
-P 1775 6275
-F 0 "R2" V 1855 6215 50  0000 C CNN
-F 1 "68" V 1925 6265 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1705 6275 50  0001 C CNN
-F 3 "~" H 1775 6275 50  0001 C CNN
-F 4 "R" H 1775 6275 50  0001 C CNN "Spice_Primitive"
-F 5 "68" H 1775 6275 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 1775 6275 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    1775 6275
+P 1660 3440
+F 0 "R2" V 1740 3380 50  0000 C CNN
+F 1 "68" V 1810 3430 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1590 3440 50  0001 C CNN
+F 3 "~" H 1660 3440 50  0001 C CNN
+F 4 "R" H 1660 3440 50  0001 C CNN "Spice_Primitive"
+F 5 "68" H 1660 3440 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 1660 3440 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    1660 3440
 	0    1    1    0   
 $EndComp
-Text GLabel 3610 5400 0    50   Input ~ 0
+Text GLabel 3600 2570 0    50   Input ~ 0
 PWR_LED+
-Text GLabel 3615 6290 0    50   Input ~ 0
+Text GLabel 3605 3460 0    50   Input ~ 0
 HD+
-Text GLabel 2525 6275 2    50   Input ~ 0
+Text GLabel 2410 3440 2    50   Input ~ 0
 RES+
-Text GLabel 2525 6475 2    50   Input ~ 0
+Text GLabel 2410 3640 2    50   Input ~ 0
 RES-
-Text GLabel 3610 5600 0    50   Input ~ 0
+Text GLabel 3600 2770 0    50   Input ~ 0
 PWR_LED-
-Text GLabel 3615 6490 0    50   Input ~ 0
+Text GLabel 3605 3660 0    50   Input ~ 0
 HD-
 $Comp
 L power:GND #PWR0103
 U 1 1 61C5AF4A
-P 7000 4750
-F 0 "#PWR0103" H 7000 4500 50  0001 C CNN
-F 1 "GND" H 7005 4577 50  0000 C CNN
-F 2 "" H 7000 4750 50  0001 C CNN
-F 3 "" H 7000 4750 50  0001 C CNN
-	1    7000 4750
+P 4465 1600
+F 0 "#PWR0103" H 4465 1350 50  0001 C CNN
+F 1 "GND" H 4470 1427 50  0000 C CNN
+F 2 "" H 4465 1600 50  0001 C CNN
+F 3 "" H 4465 1600 50  0001 C CNN
+	1    4465 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 7000 4250 0    50   Input ~ 0
+Text GLabel 4465 1100 0    50   Input ~ 0
 PI_PWR_SW
-Text GLabel 7000 4350 0    50   Input ~ 0
+Text GLabel 4465 1200 0    50   Input ~ 0
 PI_RST_SW
-Text GLabel 7000 4450 0    50   Input ~ 0
+Text GLabel 4465 1300 0    50   Input ~ 0
 PI_PWR_LED
-Text GLabel 7000 4550 0    50   Input ~ 0
+Text GLabel 4465 1400 0    50   Input ~ 0
 PI_HDD_LED
 Wire Wire Line
-	7000 4650 6830 4650
+	4465 1500 4295 1500
 Wire Wire Line
-	6830 4650 6830 4750
+	4295 1500 4295 1600
 $Comp
 L Device:R R5
 U 1 1 61C6492F
-P 4360 5600
-F 0 "R5" V 4440 5540 50  0000 C CNN
-F 1 "10K" V 4500 5590 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4290 5600 50  0001 C CNN
-F 3 "~" H 4360 5600 50  0001 C CNN
-F 4 "R" H 4360 5600 50  0001 C CNN "Spice_Primitive"
-F 5 "10K" H 4360 5600 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4360 5600 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    4360 5600
+P 4350 2770
+F 0 "R5" V 4430 2710 50  0000 C CNN
+F 1 "10K" V 4490 2760 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4280 2770 50  0001 C CNN
+F 3 "~" H 4350 2770 50  0001 C CNN
+F 4 "R" H 4350 2770 50  0001 C CNN "Spice_Primitive"
+F 5 "10K" H 4350 2770 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4350 2770 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    4350 2770
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 61C6590D
-P 4400 6490
-F 0 "R6" V 4480 6430 50  0000 C CNN
-F 1 "10K" V 4550 6480 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4330 6490 50  0001 C CNN
-F 3 "~" H 4400 6490 50  0001 C CNN
-F 4 "R" H 4400 6490 50  0001 C CNN "Spice_Primitive"
-F 5 "10K" H 4400 6490 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 4400 6490 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    4400 6490
+P 4390 3660
+F 0 "R6" V 4470 3600 50  0000 C CNN
+F 1 "10K" V 4540 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4320 3660 50  0001 C CNN
+F 3 "~" H 4390 3660 50  0001 C CNN
+F 4 "R" H 4390 3660 50  0001 C CNN "Spice_Primitive"
+F 5 "10K" H 4390 3660 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4390 3660 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    4390 3660
 	0    1    1    0   
 $EndComp
-Text GLabel 4240 6390 2    50   Input ~ 0
+Text GLabel 4230 3560 2    50   Input ~ 0
 PI_HDD_LED
 $Comp
 L power:GND #PWR0108
 U 1 1 61C6B4AE
-P 4550 6490
-F 0 "#PWR0108" H 4550 6240 50  0001 C CNN
-F 1 "GND" V 4450 6425 50  0000 C CNN
-F 2 "" H 4550 6490 50  0001 C CNN
-F 3 "" H 4550 6490 50  0001 C CNN
-	1    4550 6490
+P 4540 3660
+F 0 "#PWR0108" H 4540 3410 50  0001 C CNN
+F 1 "GND" V 4440 3595 50  0000 C CNN
+F 2 "" H 4540 3660 50  0001 C CNN
+F 3 "" H 4540 3660 50  0001 C CNN
+	1    4540 3660
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8650 4250 8650 4450
+	5450 1165 5450 1365
 Wire Wire Line
-	9050 4250 9050 4450
+	5850 1165 5850 1365
 Wire Wire Line
-	8650 5010 8650 5210
+	5450 1925 5450 2125
 Wire Wire Line
-	9050 5010 9050 5210
-Text GLabel 9110 4450 2    50   Input ~ 0
+	5850 1925 5850 2125
+Text GLabel 5910 1365 2    50   Input ~ 0
 PWR_SW+
 Wire Wire Line
-	9050 4450 9110 4450
-Text GLabel 8590 4450 0    50   Input ~ 0
+	5850 1365 5910 1365
+Text GLabel 5390 1365 0    50   Input ~ 0
 PWR_SW-
 Wire Wire Line
-	8650 4450 8590 4450
-Text GLabel 9110 5210 2    50   Input ~ 0
+	5450 1365 5390 1365
+Text GLabel 5910 2125 2    50   Input ~ 0
 RES+
-Text GLabel 8590 5210 0    50   Input ~ 0
+Text GLabel 5390 2125 0    50   Input ~ 0
 RES-
 Wire Wire Line
-	9110 5210 9050 5210
+	5910 2125 5850 2125
 Wire Wire Line
-	8590 5210 8650 5210
+	5390 2125 5450 2125
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 61C7342D
@@ -247,202 +247,208 @@ $EndComp
 $Comp
 L Device:LED D1
 U 1 1 61C9A0ED
-P 10180 4360
-F 0 "D1" H 10173 4485 50  0000 C CNN
-F 1 "LED" H 10173 4486 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10180 4360 50  0001 C CNN
-F 3 "~" H 10180 4360 50  0001 C CNN
-F 4 "D" H 10180 4360 50  0001 C CNN "Spice_Primitive"
-F 5 "LED" H 10180 4360 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 10180 4360 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    10180 4360
+P 6890 1105
+F 0 "D1" H 6883 1230 50  0000 C CNN
+F 1 "LED" H 6883 1231 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6890 1105 50  0001 C CNN
+F 3 "~" H 6890 1105 50  0001 C CNN
+F 4 "D" H 6890 1105 50  0001 C CNN "Spice_Primitive"
+F 5 "LED" H 6890 1105 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6890 1105 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    6890 1105
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D2
 U 1 1 61C9CFB3
-P 10190 5100
-F 0 "D2" H 10183 5225 50  0000 C CNN
-F 1 "LED" H 10183 5226 50  0001 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10190 5100 50  0001 C CNN
-F 3 "~" H 10190 5100 50  0001 C CNN
-F 4 "D" H 10190 5100 50  0001 C CNN "Spice_Primitive"
-F 5 "LED" H 10190 5100 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 10190 5100 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    10190 5100
+P 6900 1845
+F 0 "D2" H 6893 1970 50  0000 C CNN
+F 1 "LED" H 6893 1971 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6900 1845 50  0001 C CNN
+F 3 "~" H 6900 1845 50  0001 C CNN
+F 4 "D" H 6900 1845 50  0001 C CNN "Spice_Primitive"
+F 5 "LED" H 6900 1845 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 6900 1845 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    6900 1845
 	1    0    0    -1  
 $EndComp
-Text GLabel 10340 5100 2    50   Input ~ 0
+Text GLabel 7050 1845 2    50   Input ~ 0
 HD+
-Text GLabel 10040 5100 0    50   Input ~ 0
+Text GLabel 6750 1845 0    50   Input ~ 0
 HD-
-Text GLabel 2750 5000 0    50   Input ~ 0
+Text GLabel 1430 2005 0    50   Input ~ 0
 PWR_LED-
-Text GLabel 2750 4900 0    50   Input ~ 0
+Text GLabel 1430 1905 0    50   Input ~ 0
 PWR_LED-
-Text GLabel 2750 4800 0    50   Input ~ 0
+Text GLabel 1430 1805 0    50   Input ~ 0
 PWR_LED+
-Text GLabel 2750 4600 0    50   Input ~ 0
+Text GLabel 1430 1605 0    50   Input ~ 0
 CI+
-Text GLabel 2750 4500 0    50   Input ~ 0
+Text GLabel 1430 1505 0    50   Input ~ 0
 CI-
-Text GLabel 2750 4400 0    50   Input ~ 0
+Text GLabel 1430 1405 0    50   Input ~ 0
 RES+
-Text GLabel 2750 4300 0    50   Input ~ 0
+Text GLabel 1430 1305 0    50   Input ~ 0
 RES-
-Text GLabel 2750 4200 0    50   Input ~ 0
+Text GLabel 1430 1205 0    50   Input ~ 0
 HD-
-Text GLabel 2750 4100 0    50   Input ~ 0
+Text GLabel 1430 1105 0    50   Input ~ 0
 HD+
-Text GLabel 3250 5000 2    50   Input ~ 0
+Text GLabel 1930 2005 2    50   Input ~ 0
 SPEAK-
-Text GLabel 3250 4700 2    50   Input ~ 0
+Text GLabel 1930 1705 2    50   Input ~ 0
 SPEAK+
-Text GLabel 3250 4400 2    50   Input ~ 0
+Text GLabel 1930 1405 2    50   Input ~ 0
 PWR_SW-
-Text GLabel 3250 4300 2    50   Input ~ 0
+Text GLabel 1930 1305 2    50   Input ~ 0
 PWR_SW+
-Text GLabel 3250 4200 2    50   Input ~ 0
+Text GLabel 1930 1205 2    50   Input ~ 0
 PWR-
-Text GLabel 3250 4100 2    50   Input ~ 0
+Text GLabel 1930 1105 2    50   Input ~ 0
 PWR+
 $Comp
 L Switch:SW_Push SW1
 U 1 1 61CA2F6F
-P 8850 4250
-F 0 "SW1" H 8850 4443 50  0000 C CNN
-F 1 "SW_Push" H 8850 4444 50  0001 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 8850 4450 50  0001 C CNN
-F 3 "~" H 8850 4450 50  0001 C CNN
-	1    8850 4250
+P 5650 1165
+F 0 "SW1" H 5650 1358 50  0000 C CNN
+F 1 "SW_Push" H 5650 1359 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5650 1365 50  0001 C CNN
+F 3 "~" H 5650 1365 50  0001 C CNN
+	1    5650 1165
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW2
 U 1 1 61CA438D
-P 8850 5010
-F 0 "SW2" H 8850 5203 50  0000 C CNN
-F 1 "SW_Push" H 8850 5204 50  0001 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 8850 5210 50  0001 C CNN
-F 3 "~" H 8850 5210 50  0001 C CNN
-	1    8850 5010
+P 5650 1925
+F 0 "SW2" H 5650 2118 50  0000 C CNN
+F 1 "SW_Push" H 5650 2119 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 5650 2125 50  0001 C CNN
+F 3 "~" H 5650 2125 50  0001 C CNN
+	1    5650 1925
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4480 4580
-NoConn ~ 4980 4480
-NoConn ~ 4980 4380
-NoConn ~ 4980 4680
-NoConn ~ 4980 4780
-Text GLabel 10030 4360 0    50   Input ~ 0
+NoConn ~ 2915 1705
+NoConn ~ 3415 1605
+NoConn ~ 3415 1505
+NoConn ~ 3415 1805
+NoConn ~ 3415 1905
+Text GLabel 6740 1105 0    50   Input ~ 0
 PWR+
-Text GLabel 10330 4360 2    50   Input ~ 0
+Text GLabel 7040 1105 2    50   Input ~ 0
 PWR-
-Text GLabel 1630 5400 0    50   Input ~ 0
+Text GLabel 1515 2565 0    50   Input ~ 0
 PI_PWR_SW
 $Comp
 L Isolator:PC817 U2
 U 1 1 61CBEFD6
-P 2225 6375
-F 0 "U2" H 2225 6700 50  0000 C CNN
-F 1 "PC817" H 2225 6609 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 2025 6175 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2225 6375 50  0001 L CNN
-	1    2225 6375
+P 2110 3540
+F 0 "U2" H 2110 3865 50  0000 C CNN
+F 1 "PC817" H 2110 3774 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1910 3340 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2110 3540 50  0001 L CNN
+	1    2110 3540
 	1    0    0    -1  
 $EndComp
 $Comp
 L Isolator:PC817 U3
 U 1 1 61CCCD91
-P 3910 5500
-F 0 "U3" H 3910 5183 50  0000 C CNN
-F 1 "PC817" H 3910 5274 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 3710 5300 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3910 5500 50  0001 L CNN
-	1    3910 5500
+P 3900 2670
+F 0 "U3" H 3900 2353 50  0000 C CNN
+F 1 "PC817" H 3900 2444 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3700 2470 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3900 2670 50  0001 L CNN
+	1    3900 2670
 	1    0    0    -1  
 $EndComp
 $Comp
 L Isolator:PC817 U4
 U 1 1 61CE6449
-P 3915 6390
-F 0 "U4" H 3915 6073 50  0000 C CNN
-F 1 "PC817" H 3915 6164 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 3715 6190 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3915 6390 50  0001 L CNN
-	1    3915 6390
+P 3905 3560
+F 0 "U4" H 3905 3243 50  0000 C CNN
+F 1 "PC817" H 3905 3334 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3705 3360 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3905 3560 50  0001 L CNN
+	1    3905 3560
 	1    0    0    -1  
 $EndComp
-Text GLabel 2530 5600 2    50   Input ~ 0
+Text GLabel 2415 2765 2    50   Input ~ 0
 PWR_SW-
-Text GLabel 2530 5400 2    50   Input ~ 0
+Text GLabel 2415 2565 2    50   Input ~ 0
 PWR_SW+
-Text GLabel 4230 5500 2    50   Input ~ 0
+Text GLabel 4220 2670 2    50   Input ~ 0
 PI_PWR_LED
 $Comp
 L power:GND #PWR0107
 U 1 1 61C6A5D0
-P 4510 5600
-F 0 "#PWR0107" H 4510 5350 50  0001 C CNN
-F 1 "GND" V 4405 5545 50  0000 C CNN
-F 2 "" H 4510 5600 50  0001 C CNN
-F 3 "" H 4510 5600 50  0001 C CNN
-	1    4510 5600
+P 4500 2770
+F 0 "#PWR0107" H 4500 2520 50  0001 C CNN
+F 1 "GND" V 4395 2715 50  0000 C CNN
+F 2 "" H 4500 2770 50  0001 C CNN
+F 3 "" H 4500 2770 50  0001 C CNN
+	1    4500 2770
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4230 5500 4210 5500
+	4220 2670 4200 2670
 Wire Wire Line
-	4210 5500 4210 5600
-Connection ~ 4210 5600
+	4200 2670 4200 2770
+Connection ~ 4200 2770
 Wire Wire Line
-	4215 6490 4215 6390
+	4205 3660 4205 3560
 Wire Wire Line
-	4215 6390 4240 6390
+	4205 3560 4230 3560
 Wire Wire Line
-	4250 6490 4215 6490
-Connection ~ 4215 6490
+	4240 3660 4205 3660
+Connection ~ 4205 3660
 $Comp
 L power:VCC #PWR0104
 U 1 1 61CB8472
-P 6830 4750
-F 0 "#PWR0104" H 6830 4600 50  0001 C CNN
-F 1 "VCC" H 6845 4923 50  0000 C CNN
-F 2 "" H 6830 4750 50  0001 C CNN
-F 3 "" H 6830 4750 50  0001 C CNN
-	1    6830 4750
+P 4295 1600
+F 0 "#PWR0104" H 4295 1450 50  0001 C CNN
+F 1 "VCC" H 4310 1773 50  0000 C CNN
+F 2 "" H 4295 1600 50  0001 C CNN
+F 3 "" H 4295 1600 50  0001 C CNN
+	1    4295 1600
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR0105
 U 1 1 61CB9832
-P 4210 5400
-F 0 "#PWR0105" H 4210 5250 50  0001 C CNN
-F 1 "VCC" V 4110 5400 50  0000 L CNN
-F 2 "" H 4210 5400 50  0001 C CNN
-F 3 "" H 4210 5400 50  0001 C CNN
-	1    4210 5400
+P 4200 2570
+F 0 "#PWR0105" H 4200 2420 50  0001 C CNN
+F 1 "VCC" V 4100 2570 50  0000 L CNN
+F 2 "" H 4200 2570 50  0001 C CNN
+F 3 "" H 4200 2570 50  0001 C CNN
+	1    4200 2570
 	0    1    1    0   
 $EndComp
 $Comp
 L power:VCC #PWR0106
 U 1 1 61CBACD9
-P 4215 6290
-F 0 "#PWR0106" H 4215 6140 50  0001 C CNN
-F 1 "VCC" V 4115 6290 50  0000 L CNN
-F 2 "" H 4215 6290 50  0001 C CNN
-F 3 "" H 4215 6290 50  0001 C CNN
-	1    4215 6290
+P 4205 3460
+F 0 "#PWR0106" H 4205 3310 50  0001 C CNN
+F 1 "VCC" V 4105 3460 50  0000 L CNN
+F 2 "" H 4205 3460 50  0001 C CNN
+F 3 "" H 4205 3460 50  0001 C CNN
+	1    4205 3460
 	0    1    1    0   
 $EndComp
 $Comp
 L Isolator:PC817 U1
 U 1 1 61CA9558
-P 2230 5500
-F 0 "U1" H 2230 5825 50  0000 C CNN
-F 1 "PC817" H 2230 5734 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 2030 5300 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2230 5500 50  0001 L CNN
-	1    2230 5500
+P 2115 2665
+F 0 "U1" H 2115 2990 50  0000 C CNN
+F 1 "PC817" H 2115 2899 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1915 2465 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2115 2665 50  0001 L CNN
+	1    2115 2665
 	1    0    0    -1  
 $EndComp
+Text Notes 7340 7515 0    79   ~ 16
+IPiMI
+Text Notes 10615 7645 0    59   ~ 0
+Version 1.0
+Text Notes 8115 7645 0    59   ~ 0
+12/28/2021
 $EndSCHEMATC
