@@ -9,7 +9,7 @@ A simple board to allow you to connect a raspberry pi to the front panel connect
 ![pcb front](hardware/PCB.png)
 
 # Render Front:
-![3d render front](hardware/3D_Render_Back.png)
+![3d render front](hardware/3D_Render_Front.png)
 
 # Render Front:
-![3d render front](hardware/3D_Render_Front)
+![3d render front](hardware/3D_Render_Back.png)
