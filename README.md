@@ -6,17 +6,17 @@ A simple board to allow you to connect a raspberry pi (or other micro controller
 
 
 # Gigabyte Front Panel Pinout:
-![Gigabyte front panel connector](hardware/Gigabyte_Pinout.png)
+![Gigabyte front panel connector](images/Gigabyte_Pinout.png)
 
 # Schematic:
-![schematic](hardware/Schematic.png)
+![schematic](images/Schematic.png)
 
 # PCB:
-![pcb front](hardware/PCB.png)
+![pcb front](images/PCB.png)
 
 # 3D Render
 ## Front:
-![3d render front](hardware/3D_Render_Front.png)
+![3d render front](images/3D_Render_Front.png)
 
 ## Back:
-![3d render front](hardware/3D_Render_Back.png)
+![3d render front](images/3D_Render_Back.png)
